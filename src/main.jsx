@@ -6,12 +6,15 @@ import Experience from "./routes/Experience.jsx";
 import Portfolio from "./routes/Portfolio.jsx";
 import Nav from "./components/Nav.jsx";
 import "./index.css";
+import '@fontsource-variable/inter'
+
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 const AppLayout = () => (
   <>
-    <header className="bg-red-200 h-[15%] w-full mt-2 px-4 flex justify-center items-center">
+    <header className="h-[15%] w-full mt-2 px-4 flex flex-col justify-center items-center">
       <Nav />
+      <span class="w-full h-[2px] bg-gradient-to-r from-white/0 via-white to-white/0"></span>
     </header>
     <Outlet />
   </>
