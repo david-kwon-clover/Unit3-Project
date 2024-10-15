@@ -5,7 +5,7 @@ import Google from '../assets/google_magical.jpg';
 const Experience = () => {
   return (
     <section className='h-[85%] w-full flex justify-center items-center font-jetbrains px-24 text-white'>
-      <article className='text-left text-pretty w-[55%]'>
+      <article className='text-left text-pretty w-[55%] flex flex-col justify-center'>
         <h3 className='text-2xl'>Education</h3>
         <ul className='mb-12'>
           <li className='text-lg list-disc'>Houdini Elementary</li>
