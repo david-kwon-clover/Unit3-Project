@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: 'Inter Variable, sans-serif',
+        jetbrains: 'JetBrains Mono Variable, monospace'
+      }
+    },
   },
   plugins: [],
 }
