@@ -1,15 +1,24 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <nav className='bg-blue-200 w-full h-[75%] px-2 flex justify-between items-center'>
+    <nav className='bg-blue-200 w-full h-[75%] px-4 flex justify-between items-center'>
         <h1>David Kwon</h1>
-        <div>
-            <a className='mr-4'>Home</a>
-            <a className='mr-4'>Bio</a>
-            <a className='mr-4'>Experience</a>
-            <a className='mr-4'>Portfolio</a>
-        </div>
+        <ul className='flex'>
+            <li className='mr-4'>
+                <Link to="/">Home</Link>
+            </li>
+            <li className='mr-4'>
+                <Link to="/bio">Bio</Link>
+            </li>
+            <li className='mr-4'>
+                <Link to="/experience">Experience</Link>
+            </li>
+            <li>
+                <Link to="/portfolio">Portfolio</Link>
+            </li>
+        </ul>
     </nav>
   )
 }
