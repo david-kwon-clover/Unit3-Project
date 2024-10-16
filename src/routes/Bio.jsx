@@ -13,8 +13,8 @@ const Bio = () => {
         <p className='text-lg mb-4'>As a wizard, I aspire to elevate the perception of The World of Witchcraft and Wizardry by pushing for advanced research into charms, potions, elixirs, and spell creation.</p>
       </article>
       <div className='flex ml-4 h-full items-center'>
-        <img src={MeAndKanye} className='rounded-3xl h-[90%]'/>
-        <img src={MeAndVoldy} className='rounded-3xl h-[90%]'/>
+        <img src={MeAndKanye} className='rounded-3xl m-4 h-[90%] shadow-2xl hover:shadow-3xl transform transition duration-300 hover:scale-105'/>
+        <img src={MeAndVoldy} className='rounded-3xl m-4 h-[90%] shadow-2xl hover:shadow-3xl transform transition duration-300 hover:scale-105'/>
       </div>
     </section>
   )
