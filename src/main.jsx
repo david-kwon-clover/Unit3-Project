@@ -24,8 +24,8 @@ const AppLayout = () => (
       <span className="w-full h-[2px] bg-gradient-to-r from-white/0 via-white to-white/0"></span>
       <aside className="h-[90%] flex items-center justify-center">
         <p className="text-white font-extrabold mr-4">Let's Connect!</p>
-        <a className="h-[70%]" href="https://www.nsa.gov/"><img src={InstagramLogo} className="h-full"/></a>
-        <a className="h-[70%]" href="https://www.nsa.gov/"><img src={TwitterLogo} className="h-full"/></a>
+        <a className="h-[70%]" href="https://www.nsa.gov/" target="_blank"><img src={InstagramLogo} className="h-full"/></a>
+        <a className="h-[70%]" href="https://www.nsa.gov/" target="_blank"><img src={TwitterLogo} className="h-full"/></a>
       </aside>
     </footer>
   </>
