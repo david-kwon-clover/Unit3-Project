@@ -4,7 +4,7 @@ import MeAndVoldy from '../assets/me_and_voldy.jpg';
 
 const Bio = () => {
   return (
-    <section className='h-[85%] w-full flex justify-center items-center font-jetbrains px-24 text-white'>
+    <section className='h-[75%] w-full flex justify-center items-center font-jetbrains px-24 text-white'>
       <article className='text-right text-pretty w-[45%]'>
         <p className='text-lg mb-4'>Born in the year 1687, I am a 337 year old mage who achieved immortality at the young age of 63.</p>
         <br></br>
