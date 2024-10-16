@@ -20,8 +20,8 @@ const Experience = () => {
         </ul>
       </article>
       <div className='flex flex-col ml-4 h-full items-center'>
-        <img src={Hogwarts} className='rounded-3xl h-[45%] w-full'/>
-        <img src={Google} className='rounded-3xl h-[45%] w-full'/>
+        <img src={Hogwarts} className='rounded-3xl h-[45%] m-4 w-full shadow-2xl hover:shadow-3xl transform transition duration-300 hover:scale-105'/>
+        <img src={Google} className='rounded-3xl h-[45%] m-4 w-full shadow-2xl hover:shadow-3xl transform transition duration-300 hover:scale-105'/>
       </div>
     </section>
   )

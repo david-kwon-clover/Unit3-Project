@@ -9,7 +9,7 @@ const App = () => {
         <h2 className='text-6xl mb-12'>A powerful wizard</h2>
         <h2 className='text-2xl mb-4'>Wielding the power of Harry Potter and all the legends before him...</h2>
       </span>
-      <img src={WizardPortrait} className='rounded-3xl ml-16'/>
+      <img src={WizardPortrait} className='rounded-3xl ml-16 shadow-2xl hover:shadow-3xl transform transition duration-300 hover:scale-105'/>
     </main>
   )
 }
