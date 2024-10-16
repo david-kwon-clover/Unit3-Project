@@ -9,7 +9,7 @@ const App = () => {
   }
   
   return (
-    <main className='h-[85%] w-full flex justify-center items-center font-jetbrains px-24 text-white'>
+    <main className='h-[75%] w-full flex justify-center items-center font-jetbrains px-24 text-white'>
       <span className='text-right text-pretty w-[40%]'>
         <h2 className='text-3xl mb-4'>Hi, I'm David 👋</h2>
         <h2 className='text-6xl mb-12'>A powerful wizard</h2>
